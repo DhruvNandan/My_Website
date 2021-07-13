@@ -3,6 +3,7 @@
 <head>
     <title>R.S.Dhruv Nandan</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
     <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
@@ -12,26 +13,33 @@
 </head>
 
 <body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="#">R.S.DHRUV NANDAN</a></div>
+        <div class="collapse navbar-collapse" id="#myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="link"><a href="#About">About</a></li>
+                <li class="link"><a href="#Myfavouritesports">My favourite Sports</a></li>
+                <li class="link"><a href="#Myfavouritebook">My favourite book</a></li>
+                <li class="link"><a href="#Myinspiration">My inspiration</a></li>
+                <li class="link"><a href="#Contact">Contact</a></li>
+                <li class="link"><a href="#games">Games
+                    </a></li>
+            </ul>
+        </div>
+
+    </nav>
     <section id="About">
-        <ul class="menu">
-            <li class="link"><a href="#About">About</a></li>
-            <li class="link"><a href="#Myfavouritesports">My favourite Sports</a></li>
-            <li class="link"><a href="#Myfavouritebook">My favourite book</a></li>
-            <li class="link"><a href="#Myinspiration">My inspiration</a></li>
-            <li class="link"><a href="#Contact">Contact</a></li>
-            <li class="link"><a href="#games">Games
-                </a></li>
-        </ul>
+
         <div class="profile">
             <img id="mypicture" src="My%20Profile.jpg">
-            <h1>I am<br><span id="name">R.S.Dhruv Nandan</span></h1> <iframe src="My%20Logo.mp4" ></iframe>
+            <h1>I am<br><span id="name">R.S.Dhruv Nandan</span></h1> <iframe src="My%20Logo.mp4"></iframe>
             <div class="line"></div>
             <p>Hi! My name is R.S.Dhruv Nandan. I am 10 years old and i am studying in 5th grade in NBIS. My friend are Shyamala, Ravi Chandran, Antony Derrick and my favourite subject is Math.</p>
         </div>
     </section>
 
     <section id="Myfavouritesports">
-        <br> 
+        <br>
         <br><img id="football" src="Football.png">
         <h1>My Favourite Sports<br><span id="hobby">Playing Football</span></h1>
         <a class="article" href="https://en.wikipedia.org/wiki/Football" target="_blank">Click here to know about football</a>
@@ -40,7 +48,8 @@
     </section>
 
     <section id="Myfavouritebook">
-         <br> <br><div>
+        <br> <br>
+        <div>
             <h1>My favourite book<br><span id="book">Calvin And Hobbes</span></h1>
             <div class="line"></div>
             <img id="Calvin And Hobbes" src="Calvin%20and%20hobbes.jpg" class="cla">
@@ -48,33 +57,36 @@
         <iframe width="900" height="320" src="https://en.wikipedia.org/wiki/Calvin_and_Hobbes" frameborder="0"></iframe>
     </section>
     <section id="Myinspiration">
-       <br> <br> <h1>My inspiration</h1>
+        <br> <br>
+        <h1>My inspiration</h1>
         <div class="line"></div>
         <h1>Click on the pictures to view my inspiration</h1>
         <a href="https://en.wikipedia.org/wiki/Lionel_Messi" target="_blank">
             <img class="inspiration" src="https://e1.365dm.com/16/10/1600x900/skysports-lionel-messi-barcelona-champions-league_3812587.jpg" id="messi"> </a>
         <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank">
             <img class="inspiration" src="Ronaldo.jpg" id="ronaldo"> </a>
-    </section> 
-    
-    <section id="Contact"> 
+    </section>
+
+    <section id="Contact">
         <br><br>
-    
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4363.338398518241!2d77.68958889555333!3d13.01702892130174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44c1b5919216288d!2sMannam%20nagar!5e0!3m2!1sen!2sin!4v1624159720045!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-     <h1 id="name">+91 9845428566, +91 9008200229</h1>
-        </section>  
-    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4363.338398518241!2d77.68958889555333!3d13.01702892130174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44c1b5919216288d!2sMannam%20nagar!5e0!3m2!1sen!2sin!4v1624159720045!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <h1 id="name">+91 9845428566, +91 9008200229</h1>
+    </section>
+
     <section id="games">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-        <div class="item-active">
-            <center>
-                <h1>Games</h1>
-                <br>
-                <br>
-            <a href="https://studio.code.org/projects/playlab/G88OYxph_G2ySV3mgYWGlGCFuZVzzX5WWcauXAmi8U8" target="_blank"><img src="my%20dragon%20profile.png"></a></center></div></div>
-        </div></section>
-</body>
-
-</html>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item-active">
+                    <center>
+                        <h1>Games</h1>
+                        <br>
+                        <br>
+                        <a href="https://studio.code.org/projects/playlab/G88OYxph_G2ySV3mgYWGlGCFuZVzzX5WWcauXAmi8U8" target="_blank"><img src="my%20dragon%20profile.png"></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section> <canvas id="canvas"></canvas>
+</body></html>

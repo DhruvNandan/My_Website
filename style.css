@@ -59,6 +59,7 @@ background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(196,28,129,1) 50
     z-index: 10;
     cursor: pointer;
     position: fixed;
+    display: inline-flex;
 }
 
 .link {
@@ -178,4 +179,7 @@ p {
     text-align: center;
     padding: 50px;
     font-size: 20px;
-    height: 563px;}
+    height: 563px;} 
+
+
+
